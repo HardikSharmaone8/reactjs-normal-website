@@ -1,13 +1,132 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* navigation part css */
+.header_heading {
+  color: #c5f3a9;
+  font-size: 25px;
+}
+.header_container {
+  height: 60px;
+  width: 100%;
+  background-color: #2ec0b3;
+  box-sizing: border-box;
+  display: flex;
+  padding: 2% 5% 0% 5%;
+}
+
+.nav {
+  margin: 0% 0% 0% 40%;
+}
+.header_headings {
+  color: #2ec0b3;
+}
+.nav_link {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 25px;
+}
+.active {
+  color: brown;
+  border-bottom: 2px solid brown;
+}
+
+/* home menu part css */
+.home_container {
+  height: 250px;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  margin-top: 10%;
+}
+
+.home_text_container {
+  width: 50%;
+}
+.home_image_container {
+  width: 50%;
+  margin-left: 10%;
+}
+.home_button {
+  height: 30px;
+  width: 30%;
+  text-align: center;
+  background-color: white;
+  color: #2ec0b3;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 3px solid #2ec0b3;
+}
+
+/* services menu css */
+
+.card_container {
+  height: auto;
+  width: 75%;
+  margin: auto;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+}
+
+/* contact css */
+
+.contact_container {
+  margin: auto;
+  margin-top: 50px;
+}
+
+.contact_container {
+  height: auto;
+  width: 40%;
+  border: 1px solid #2ec0b3;
+}
+
+input {
+  width: 100%;
+}
+label {
+  margin-top: 15px;
+}
+.submit {
+  height: 30px;
+  width: 30%;
+  text-align: center;
+  background-color: white;
+  color: #2ec0b3;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 3px solid #2ec0b3;
+  margin: 3% 0% 0% 35%;
+}
+
+/* search menu css */
+.searchDiv {
+  margin: auto;
+  width: 30%;
+  align-items: center;
+}
+
+.serach-input {
+  width: 80%;
+  border: 3px solid black;
+  padding: 5px;
+}
+
+.search_items {
+  width: 75%;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
 }
